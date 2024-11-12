@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <div class="navbar">
+            <div class="cabecera">
+                <img src="./imagenes/tienda.png" alt="Carrito" width="40px" height="40px">
+                <h1>My Market</h1>
+            </div>
+            
+            <div class="cart-icon">
+                <img src="./imagenes/carrito.png" alt="Carrito" width="43px" height="43px">
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- Sección de productos -->
+    <main>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <select>
+                <option value="all">Todas las categorías</option>
+                <option value="dairy">Lácteos</option>
+                <option value="seafood">Pescados</option>
+                <option value="vegetables">Vegetales</option>
+            </select>
+        </div>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="./imagenes/eggs.JPG">
+                <h2>Eggs</h2>
+                <p>Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.</p><br>
+                <strong>Categoría:</strong><br>
+                <div class="categoria">
+                    <div class="categoria-etiqueta">Lácteos</div>
+                </div><br>
+                <p><strong>Precio:</strong> S/ 2.99</p><br>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="./imagenes/fish-steak.JPG">
+                <h2>Fish Steak</h2>
+                <p>Quality fish steak, suitable for grilling, baking, or pan-searing.</p><br>
+                <strong>Categoría:</strong><br>
+                    <div class="categoria">
+                        <div class="categoria-etiqueta">Pescados</div>
+                    </div><br>
+                <p><strong>Precio:</strong> S/ 14.99</p><br>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="./imagenes/green-bell-pepper.JPG">
+                <h2>Green Bell Pepper</h2>
+                <p>Fresh and vibrant green bell pepper, perfect for adding flavor to your dishes.</p><br>
+                <strong>Categoría:</strong> <br>
+                    <div class="categoria">
+                        <div class="categoria-etiqueta">Vegetales</div>
+                    </div><br>
+                <p><strong>Precio:</strong> S/ 1.29</p><br>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes/facebook.png" width="45px" height="45px"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./imagenes/twitter.png" width="45px" height="45px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/instagram.png" width="45px" height="45px"></a>
+            <a href="https://www.tiktok.com/es/" target="_blank"><img src="./imagenes/tik-tok.png" width="45px" height="45px"></a>
+        </div>
+        <p>© 2024 My Market. Todos los derechos reservados.</p>
+        <p style="color: white;"> Política de privacidad | Términos de uso | Contacto </p>
+    </footer>
+</body>
+</html>
